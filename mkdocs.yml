@@ -1,0 +1,63 @@
+site_name: 'Opinionated GKE CD Workshop'
+site_description: 'A hands-on workshop on Continuous Deployment with GKE, Helm, Argo CD, Artifact Registry, and Terraform Templates.'
+site_author: 'Your Name'
+
+nav:
+  - 'Home': 'index.md'
+  - 'Prerequisites': 'prerequisites.md'
+  - 'Introduction': 'introduction.md'
+  - 'Terraform Templates Creation': 'terraform-templates.md'
+  - 'Setting Up the Environment': 'environment-setup.md'
+  - 'Helm Charts Creation': 'helm-charts.md'
+  - 'Argo CD Setup and Configuration': 'argocd-setup.md'
+  - 'Artifact Registry Integration': 'artifact-registry.md'
+  - 'Deploying the Full Stack': 'full-stack-deployment.md'
+  - 'Clean Up': 'clean-up.md'
+  - 'Q&A Session': 'qa-session.md'
+  - 'Conclusion and Additional Resources': 'conclusion.md'
+  - 'Support': 'support.md'
+
+theme:
+  name: 'material' # mkdocs, readthedocs material
+  language: en
+  logo: img/logo.png
+  favicon: img/logo.png
+  font:
+    text: Roboto
+  # icon:
+  #   previous: fontawesome/solid/angle-left
+  #   next: fontawesome/solid/angle-right
+  # features:
+  #   - toc.integrate
+
+  palette:
+    # Palette toggle for automatic mode
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+
+plugins:
+  - search
+  # - blog
+  # - privacy
+
+markdown_extensions:
+  - admonition
+  - codehilite
+  - pymdownx.betterem
+# extra:
+#   version:
+#     provider: mike

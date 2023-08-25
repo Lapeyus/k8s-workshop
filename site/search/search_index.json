@@ -1,0 +1,87 @@
+{
+  "config": {
+    "indexing": "full",
+    "lang": ["en"],
+    "min_search_length": 3,
+    "prebuild_index": false,
+    "separator": "[\\s\\-]+"
+  },
+  "docs": [
+    {
+      "location": "",
+      "text": "Opinionated GKE CD Workshop Welcome to the Opinionated GKE Continuous Deployment (CD) Workshop! This comprehensive guide will walk you through the entire process of implementing Continuous Deployment on Google Kubernetes Engine (GKE) using Helm, Argo CD, Artifact Registry, and Terraform Templates. Overview This workshop is designed to give you hands-on experience with some of the leading tools in the Kubernetes ecosystem. By the end of this workshop, you'll understand how to: Create and manage a GKE cluster. Use Helm to package and deploy applications. Set up Argo CD for continuous deployment. Integrate Artifact Registry for container management. Write and apply Terraform templates to manage infrastructure. Table of Contents Introduction Setting Up the Environment Helm Charts Creation Argo CD Setup and Configuration Artifact Registry Integration Terraform Templates Creation Deploying the Full Stack Clean Up Q&A Session Conclusion and Additional Resources Prerequisites Before you begin, make sure you have a basic understanding of the following: Kubernetes Helm Terraform Argo CD (Optional) Docker (Optional) Click here for resources to help you prepare. Hands-on Labs We've included hands-on labs to ensure practical learning. You'll find exercises embedded within each section to reinforce your understanding of the concepts. Duration The workshop is designed to last approximately 5-6 hours, including breaks. Support Should you encounter any issues or have any questions, please refer to our Support Page or contact the workshop facilitators. Let's begin the journey, and happy learning!",
+      "title": "Home"
+    },
+    {
+      "location": "#opinionated-gke-cd-workshop",
+      "text": "Welcome to the Opinionated GKE Continuous Deployment (CD) Workshop! This comprehensive guide will walk you through the entire process of implementing Continuous Deployment on Google Kubernetes Engine (GKE) using Helm, Argo CD, Artifact Registry, and Terraform Templates.",
+      "title": "Opinionated GKE CD Workshop"
+    },
+    {
+      "location": "#overview",
+      "text": "This workshop is designed to give you hands-on experience with some of the leading tools in the Kubernetes ecosystem. By the end of this workshop, you'll understand how to: Create and manage a GKE cluster. Use Helm to package and deploy applications. Set up Argo CD for continuous deployment. Integrate Artifact Registry for container management. Write and apply Terraform templates to manage infrastructure.",
+      "title": "Overview"
+    },
+    {
+      "location": "#table-of-contents",
+      "text": "Introduction Setting Up the Environment Helm Charts Creation Argo CD Setup and Configuration Artifact Registry Integration Terraform Templates Creation Deploying the Full Stack Clean Up Q&A Session Conclusion and Additional Resources",
+      "title": "Table of Contents"
+    },
+    {
+      "location": "#prerequisites",
+      "text": "Before you begin, make sure you have a basic understanding of the following: Kubernetes Helm Terraform Argo CD (Optional) Docker (Optional) Click here for resources to help you prepare.",
+      "title": "Prerequisites"
+    },
+    {
+      "location": "#hands-on-labs",
+      "text": "We've included hands-on labs to ensure practical learning. You'll find exercises embedded within each section to reinforce your understanding of the concepts.",
+      "title": "Hands-on Labs"
+    },
+    {
+      "location": "#duration",
+      "text": "The workshop is designed to last approximately 5-6 hours, including breaks.",
+      "title": "Duration"
+    },
+    {
+      "location": "#support",
+      "text": "Should you encounter any issues or have any questions, please refer to our Support Page or contact the workshop facilitators. Let's begin the journey, and happy learning!",
+      "title": "Support"
+    },
+    {
+      "location": "argocd-setup/",
+      "text": "",
+      "title": "Argo CD Setup and Configuration"
+    },
+    {
+      "location": "artifact-registry/",
+      "text": "",
+      "title": "Artifact Registry Integration"
+    },
+    { "location": "clean-up/", "text": "", "title": "Clean Up" },
+    {
+      "location": "conclusion/",
+      "text": "",
+      "title": "Conclusion and Additional Resources"
+    },
+    {
+      "location": "environment-setup/",
+      "text": "",
+      "title": "Setting Up the Environment"
+    },
+    {
+      "location": "full-stack-deployment/",
+      "text": "",
+      "title": "Deploying the Full Stack"
+    },
+    { "location": "helm-charts/", "text": "", "title": "Helm Charts Creation" },
+    { "location": "introduction/", "text": "", "title": "Introduction" },
+    { "location": "prerequisites/", "text": "", "title": "Prerequisites" },
+    { "location": "qa-session/", "text": "", "title": "Q&A Session" },
+    { "location": "support/", "text": "", "title": "Support" },
+    {
+      "location": "terraform-templates/",
+      "text": "",
+      "title": "Terraform Templates Creation"
+    }
+  ]
+}
